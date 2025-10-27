@@ -1,0 +1,57 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Times Square",
+      "address": "502 9th Ave @ 38th St",
+      "full_address": "502 9th Avenue, New York, NY 10018",
+      "phone": "646-861-1311",
+      "hours": "Mon-Fri: 6AM-8PM",
+      "lat": 40.756714,
+      "lng": -73.990593,
+      "image": "assets/images/google-maps-cafe-1.jpg",
+      "order_url": "https://ser.vi/cafearoma1?iframe=1",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "name": "Central Park South",
+      "address": "839 7th Ave @ 54th St",
+      "full_address": "839 7th Avenue, New York, NY 10019",
+      "phone": "646-861-1312",
+      "hours": "Mon-Fri: 6AM-8PM",
+      "lat": 40.764929,
+      "lng": -73.981589,
+      "image": "assets/images/google-maps-cafe-2.jpg",
+      "order_url": "https://ser.vi/cafearoma2?iframe=1",
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "name": "Columbus Circle",
+      "address": "839 7th Ave @ 54th St",
+      "full_address": "1873 Broadway, New York, NY 10023",
+      "phone": "646-861-1313",
+      "hours": "Mon-Fri: 6AM-8PM",
+      "lat": 40.769721,
+      "lng": -73.982045,
+      "image": "assets/images/google-maps-cafe-3.jpg",
+      "order_url": "https://ser.vi/cafearoma3?iframe=1",
+      "status": "open"
+    },
+    {
+      "id": 4,
+      "name": "The High Line",
+      "address": "839 7th Ave @ 54th St",
+      "full_address": "500 West 25th Street, New York, NY 10001",
+      "phone": "646-861-1314",
+      "hours": "Mon-Fri: 6AM-8PM",
+      "lat": 40.747996,
+      "lng": -74.004764,
+      "image": "assets/images/google-maps-cafe-4.jpg",
+      "order_url": "https://ser.vi/cafearoma4?iframe=1",
+      "status": "open"
+    }
+  ]
+}
+
