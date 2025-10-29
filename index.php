@@ -87,11 +87,14 @@ $locations = $locations_data['locations'];
         .location-container {
             max-width: 600px;
             margin: 0 auto;
-            padding: 0;
+            padding: 16px;
         }
         
         .location-list {
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
         
         .location-card {
@@ -104,8 +107,9 @@ $locations = $locations_data['locations'];
             align-items: stretch;
             transition: all 0.3s ease;
             cursor: pointer;
-            border-bottom: 1px solid #e0e0e0;
             position: relative;
+            border-radius: 4px;
+            overflow: hidden;
         }
         
         .location-card::before {
@@ -117,10 +121,6 @@ $locations = $locations_data['locations'];
             width: 3px;
             background: transparent;
             transition: all 0.3s ease;
-        }
-        
-        .location-card:first-child {
-            border-top: 1px solid #e0e0e0;
         }
         
         .location-card:hover {
@@ -142,6 +142,7 @@ $locations = $locations_data['locations'];
             justify-content: center;
             overflow: hidden;
             position: relative;
+            border-radius: 0;
         }
         
         .location-image::after {
