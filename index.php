@@ -59,15 +59,10 @@ $locations = $locations_data['locations'];
             margin: 0 auto;
         }
         
-        .logo {
-            width: 50px;
+        .logo-img {
             height: 50px;
-            background: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
+            width: auto;
+            border-radius: 5px;
             flex-shrink: 0;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
@@ -340,9 +335,7 @@ $locations = $locations_data['locations'];
     <!-- Header -->
     <div class="header">
         <div class="header-content">
-            <div class="logo">
-                <i class="fas fa-coffee" style="color: #6f4e37;"></i>
-            </div>
+            <img src="assets/images/logo.png" alt="Cafe Aroma Logo" class="logo-img">
             <div class="header-text">
                 <h1>Cafe Aroma</h1>
                 <p>Select a location to order</p>
