@@ -397,6 +397,35 @@ $locations = $locations_data['locations'];
         let userLocation = null;
         let sortedByDistance = false;
         
+        // Detect OS and return appropriate campaign parameter
+        function detectOS() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            
+            // iOS detection
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return 'iphone';
+            }
+            
+            // Android detection
+            if (/android/i.test(userAgent)) {
+                return 'android';
+            }
+            
+            // Fallback to mobile
+            return 'mobile';
+        }
+        
+        // Build order URL with dynamic parameters
+        function buildOrderUrl(baseUrl) {
+            const campaign = detectOS();
+            const source = 'brandedapp';
+            
+            // Check if URL already has query parameters
+            const separator = baseUrl.includes('?') ? '&' : '?';
+            
+            return `${baseUrl}${separator}source=${source}&campaign=${campaign}`;
+        }
+        
         // Calculate distance between two coordinates using Haversine formula
         function calculateDistance(lat1, lon1, lat2, lon2) {
             const R = 3959; // Radius of Earth in miles
@@ -563,13 +592,28 @@ $locations = $locations_data['locations'];
             }
             
             if (orderUrl) {
-                window.location.href = orderUrl;
+                // Build URL with dynamic OS detection and campaign parameters
+                const finalUrl = buildOrderUrl(orderUrl);
+                console.log('Redirecting to:', finalUrl); // For debugging
+                window.location.href = finalUrl;
             }
         }
         
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', function() {
             getUserLocation();
+            
+            // Log detected OS for debugging
+            const detectedOS = detectOS();
+            console.log('Detected OS:', detectedOS);
+            console.log('User Agent:', navigator.userAgent);
+            
+            // Test URL generation for all locations
+            console.log('=== URL Generation Test ===');
+            locations.forEach(location => {
+                const testUrl = buildOrderUrl(location.order_url);
+                console.log(`${location.name}: ${testUrl}`);
+            });
         });
     </script>
 </body>

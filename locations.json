@@ -10,7 +10,7 @@
       "lat": 40.756714,
       "lng": -73.990593,
       "image": "assets/images/google-maps-cafe-1.jpg",
-      "order_url": "https://ser.vi/cafearoma1?iframe=1",
+      "order_url": "https://ser.vi/cafearoma1/pickup",
       "status": "open"
     },
     {
@@ -23,7 +23,7 @@
       "lat": 40.764929,
       "lng": -73.981589,
       "image": "assets/images/google-maps-cafe-2.jpg",
-      "order_url": "https://ser.vi/cafearoma2?iframe=1",
+      "order_url": "https://ser.vi/cafearoma2/pickup",
       "status": "open"
     },
     {
@@ -36,7 +36,7 @@
       "lat": 40.769721,
       "lng": -73.982045,
       "image": "assets/images/google-maps-cafe-3.jpg",
-      "order_url": "https://ser.vi/cafearoma3?iframe=1",
+      "order_url": "https://ser.vi/cafearoma3/pickup",
       "status": "open"
     },
     {
@@ -49,7 +49,7 @@
       "lat": 40.747996,
       "lng": -74.004764,
       "image": "assets/images/google-maps-cafe-4.jpg",
-      "order_url": "https://ser.vi/cafearoma4?iframe=1",
+      "order_url": "https://ser.vi/cafearoma4/pickup",
       "status": "open"
     }
   ]
