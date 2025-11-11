@@ -239,6 +239,7 @@ $locations = $locations_data['locations'];
             font-weight: 600;
             margin-left: 8px;
             box-shadow: 0 2px 4px rgba(255, 193, 7, 0.3);
+            text-transform: uppercase;
         }
         
         .loading-overlay {
@@ -368,7 +369,7 @@ $locations = $locations_data['locations'];
                     <h2 class="location-name">
                         <?php echo htmlspecialchars($location['name']); ?>
                         <?php if ($location['status'] === 'future'): ?>
-                            <span class="future-badge">FUTURE</span>
+                            <span class="future-badge">Coming Soon</span>
                         <?php endif; ?>
                     </h2>
                     <p class="location-address">
