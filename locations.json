@@ -51,19 +51,6 @@
       "image": "assets/images/google-maps-cafe-4.jpg",
       "order_url": "https://ser.vi/cafearoma4/pickup",
       "status": "open"
-    },
-    {
-      "id": 5,
-      "name": "Long Island City",
-      "address": "25-01 Queens Plaza North",
-      "full_address": "25-01 Queens Plaza N, Long Island City, NY 11101",
-      "phone": "",
-      "hours": "Coming Soon",
-      "lat": 40.75097,
-      "lng": -73.939611,
-      "image": "assets/images/google-maps-cafe-5.jpg",
-      "order_url": "https://ser.vi/cafearoma5/pickup",
-      "status": "future"
     }
   ]
 }
