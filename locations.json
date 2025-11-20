@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "Columbus Circle",
-      "address": "839 7th Ave @ 54th St",
+      "address": "1873 Broadway @ 61-62 St",
       "full_address": "1873 Broadway, New York, NY 10023",
       "phone": "646-861-1313",
       "hours": "Mon-Fri: 6AM-8PM",
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "name": "The High Line",
-      "address": "839 7th Ave @ 54th St",
+      "address": "500 West 25th Street",
       "full_address": "500 West 25th Street, New York, NY 10001",
       "phone": "646-861-1314",
       "hours": "Mon-Fri: 6AM-8PM",
