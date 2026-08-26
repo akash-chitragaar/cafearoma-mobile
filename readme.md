@@ -1,6 +1,6 @@
-# Cafe Aroma Mobile - Location Selector
+# Cafe Adora Mobile - Location Selector
 
-A mobile-optimized location selector page for Cafe Aroma that displays nearby locations sorted by distance from the user.
+A mobile-optimized location selector page for Cafe Adora that displays nearby locations sorted by distance from the user.
 
 ## Features
 

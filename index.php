@@ -1,7 +1,7 @@
 <?php
 // Mobile Location Selector - Home Page
-$page_title = "Select a Location - Cafe Aroma";
-$page_description = "Find your nearest Cafe Aroma location in NYC";
+$page_title = "Select a Location - Cafe Adora";
+$page_description = "Find your nearest Cafe Adora location in NYC";
 
 // Load locations from JSON
 $locations_json = file_get_contents('locations.json');
@@ -18,6 +18,15 @@ $locations = $locations_data['locations'];
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Social -->
+    <meta property="og:site_name" content="Cafe Adora NYC">
+    <meta property="og:title" content="<?php echo $page_title; ?>">
+    <meta property="og:description" content="<?php echo $page_description; ?>">
+    <meta property="og:image" content="assets/images/opengraph.png">
+    <meta property="og:type" content="website">
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -336,9 +345,9 @@ $locations = $locations_data['locations'];
     <!-- Header -->
     <div class="header">
         <div class="header-content">
-            <img src="assets/images/logo.png" alt="Cafe Aroma Logo" class="logo-img">
+            <img src="assets/images/logo.png" alt="Cafe Adora Logo" class="logo-img">
             <div class="header-text">
-                <h1>Cafe Aroma</h1>
+                <h1>Cafe Adora</h1>
                 <p>Select a location to order</p>
             </div>
         </div>

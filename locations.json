@@ -9,7 +9,7 @@
       "hours": "Mon-Fri: 6AM-8PM",
       "lat": 40.756714,
       "lng": -73.990593,
-      "image": "assets/images/google-maps-cafe-1.jpg",
+      "image": "assets/images/location-times-square.jpg",
       "order_url": "https://ser.vi/cafearoma1/pickup",
       "status": "open"
     },
@@ -22,7 +22,7 @@
       "hours": "Mon-Fri: 6AM-8PM",
       "lat": 40.764929,
       "lng": -73.981589,
-      "image": "assets/images/google-maps-cafe-2.jpg",
+      "image": "assets/images/location-central-park-south.jpg",
       "order_url": "https://ser.vi/cafearoma2/pickup",
       "status": "open"
     },
@@ -35,7 +35,7 @@
       "hours": "Mon-Fri: 6AM-8PM",
       "lat": 40.769721,
       "lng": -73.982045,
-      "image": "assets/images/google-maps-cafe-3.jpg",
+      "image": "assets/images/location-columbus-circle.jpg",
       "order_url": "https://ser.vi/cafearoma3/pickup",
       "status": "open"
     },
@@ -48,10 +48,9 @@
       "hours": "Mon-Fri: 6AM-8PM",
       "lat": 40.747996,
       "lng": -74.004764,
-      "image": "assets/images/google-maps-cafe-4.jpg",
+      "image": "assets/images/location-high-line.jpg",
       "order_url": "https://ser.vi/cafearoma4/pickup",
       "status": "open"
     }
   ]
 }
-
